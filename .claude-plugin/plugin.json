@@ -1,0 +1,31 @@
+{
+  "name": "themespot",
+  "displayName": "ThemeSpot",
+  "version": "3.3.0",
+  "description": "ThemeSpot gives Claude the tools and context to build, migrate and maintain a HubSpot website: theme development on ThemeSpot UI, website migration, and ongoing maintenance, through ThemeSpot's hosted MCP server. Works alongside HubSpot's own connector. Sign in with your ThemeSpot account; nothing to install.",
+  "author": {
+    "name": "Your Web Consultant"
+  },
+  "homepage": "https://themespot.app",
+  "repository": "https://github.com/yourwebconsultant/themespot",
+  "license": "Apache-2.0",
+  "keywords": [
+    "hubspot",
+    "cms",
+    "website",
+    "pages",
+    "blog",
+    "seo",
+    "theme",
+    "hubl",
+    "migration",
+    "maintenance",
+    "themespot-ui",
+    "mcp",
+    "themespot"
+  ],
+  "documentationUrl": "https://themespot.app/docs",
+  "supportUrl": "https://themespot.app/docs/support",
+  "privacyPolicyUrl": "https://themespot.app/privacy",
+  "termsOfServiceUrl": "https://themespot.app/terms"
+}

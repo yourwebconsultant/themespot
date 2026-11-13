@@ -1,0 +1,8 @@
+ThemeSpot for Claude Code
+Copyright 2026 Your Web Consultant
+
+This plugin is licensed under the Apache License, Version 2.0 (Apache-2.0); see LICENSE.
+
+The plugin's agent and skills are ThemeSpot's own guidance, written by Your Web Consultant, and are granted under the same licence. The agent's full instructions, and the text of the skills whose files here say it is on ThemeSpot's server, are sent by the ThemeSpot service when they are used: they are not among this plugin's files, and this licence does not cover them.
+
+The plugin connects to the ThemeSpot service at https://api.themespot.app. This licence covers the plugin's files, not the service: the service is governed by ThemeSpot's terms (https://themespot.app/terms) and privacy policy (https://themespot.app/privacy).
