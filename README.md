@@ -54,7 +54,7 @@ Site management is free on every plan, and so is theme code in the ThemeSpot app
 
 **Free:** one site, and full site management: find, read and edit pages, blog posts, forms, redirects, files and images as drafts, put them live, render, walk and check theme files, see what a change reaches, and the change history. Theme code in the ThemeSpot app at https://my.themespot.app: change a theme, create a new one or a standalone module with ThemeSpot UI, preview it and deploy it. Up to 500 pages kept in sync. Scans you run yourself, from a starting token balance that does not refresh; the first page scanned is free. No theme code through this plugin.
 
-**Starter:** one site, and theme code through your own agent, new or existing: binding a theme with `theme` action bind, the tools that write theme files, pulling a theme to your disk and pushing it back, preview and the deploy request, and ThemeSpot UI for themes and standalone modules. Every page kept in sync. A monthly token allowance that refreshes, with top-ups on top.
+**Starter:** one site, and theme code through your own agent, new or existing: binding a theme with `theme_change` action bind, the tools that write theme files, pulling a theme to your disk and pushing it back, preview and the deploy request, and ThemeSpot UI for themes and standalone modules. Every page kept in sync. A monthly token allowance that refreshes, with top-ups on top.
 
 **Pro:** up to three sites, scheduled background scans, eyes walkthroughs, team roles and longer change history. A larger monthly allowance.
 
