@@ -46,25 +46,27 @@ Claude Code finds how to sign in from the server itself (OAuth 2.1 with PKCE; Cl
 
 Ask for what you want in plain words: "rewrite the meta descriptions on our service pages", "the hero on the pricing page has a gap under the heading on mobile, fix it", "match this design" with an image. Drafts and live changes run when Claude calls the tool, through Claude Code's own permission prompt; a theme deploy waits for an approval in ThemeSpot (below).
 
+Ask for a new theme ("convert this design into a HubSpot theme") and Claude makes a React theme on ThemeSpot UI in your ThemeSpot workspace, binds the connection to it and builds it in the same conversation; a HubL theme is made in the ThemeSpot app at https://my.themespot.app.
+
 With a theme bound for code changes, you can also ask Claude to edit the theme on your machine: it copies the theme's files into a folder, edits them there with its own tools, and sends the changes back to ThemeSpot as one saved version. ThemeSpot checks, previews and deploys only what has been sent back, so nothing in the folder counts until then.
 
 ## What each plan includes
 
-Site management is free on every plan, and so is theme code, in the ThemeSpot app at https://my.themespot.app and through your own agent, this plugin included, and so is capturing a web page and comparing a draw with it. A theme deploy that reaches HubSpot uses 1 token; the first on each site is free.
+Site management is free on every plan, and so is theme code, in the ThemeSpot app at https://my.themespot.app and through your own agent, this plugin included, and so is capturing a web page and comparing a draw with it. Theme deploys that reach HubSpot: first deploy free, 1 token after. The free one is the first theme deploy on your account, whichever of your sites it is on.
 
-**Free:** one site, and full site management: find, read and edit pages, blog posts, forms, redirects, files and images as drafts, put them live, render, walk and check theme files, see what a change reaches, and the change history. Theme code in the ThemeSpot app at https://my.themespot.app and through this plugin: binding a theme with `theme_change` action bind, the tools that write theme files, pulling a theme to your disk and pushing it back, creating a theme or a standalone module with ThemeSpot UI, preview and the deploy request. Capturing a web page and comparing a draw with it, up to 50 a day. Up to 500 pages kept in sync, and up to 100 MB of theme files on the site. Scans and theme deploys from a starting token balance that does not refresh; the first page scanned and the first theme deploy on each site are free.
+**Free:** one HubSpot portal, and full site management: find, read and edit pages, blog posts, forms, redirects, files and images as drafts, put them live, render, walk and check theme files, see what a change reaches, and the change history. Theme code in the ThemeSpot app at https://my.themespot.app and through this plugin: binding a theme with `theme_change` action bind, the tools that write theme files, pulling a theme to your disk and pushing it back, creating a React theme with `theme_change` action create (which binds it) or a standalone module with ThemeSpot UI, preview and the deploy request. Capturing a web page and comparing a draw with it, up to 50 a day. Up to 500 pages kept in sync. Scans and theme deploys from a starting token balance that does not refresh; the first page scanned on each site is free, and so is the first theme deploy on your account.
 
-**Starter:** one site, every page kept in sync, no limit on theme files, up to 500 page captures and comparisons a day, and a monthly token allowance that refreshes, with top-ups on top.
+**Starter:** one HubSpot portal, every page kept in sync, up to 500 page captures and comparisons a day, and a monthly token allowance that refreshes, with top-ups on top.
 
-**Pro:** up to three sites, scheduled background scans, eyes walkthroughs, team roles and longer change history. A larger monthly allowance.
+**Pro:** up to three HubSpot portals, scheduled background scans, eyes walkthroughs, team roles and longer change history. A larger monthly allowance.
 
-**Agency:** any number of sites, audit export and a monthly allowance agreed per account. Agency is arranged by talking to us, not bought online. Plans: https://themespot.app/pricing.
+**Agency:** any number of HubSpot portals, audit export and a monthly allowance agreed per account. Agency is arranged by talking to us, not bought online. Plans: https://themespot.app/pricing.
 
 Every tool and action is on every plan; `site` action overview says the plan, what is left of the allowance and what each plan adds. Captures and comparisons are counted together on each site and the count resets at midnight UTC: past the day's limit, `capture` says how many your plan allows and runs nothing.
 
 ## Tokens
 
-Tokens are spent on a scan (by page, or by template or theme), investigating a finding, a theme deploy that reaches HubSpot (1 token; the first on each site is free), a fix ThemeSpot runs for you (charged only when it verifies; a fix whose size is uncertain shows an estimate first), and the agent and walkthroughs that run in the ThemeSpot app at https://my.themespot.app. Reads, drafts, theme file changes, going live, previews, renders, walk, check, impact, capturing a web page, comparing a draw with a capture and approvals are never charged, and nor is anything you fix with your own Claude through this plugin, so look at a theme change with a preview until it is right, then deploy it once. Something that fails costs nothing, a deploy included. A tool that would cost more than your balance stops before it runs, says the tokens it needs and your balance, and links to a top-up.
+Tokens are spent on a scan (by page, or by template or theme), investigating a finding, a theme deploy that reaches HubSpot (first deploy free, 1 token after), a fix ThemeSpot runs for you (charged only when it verifies; a fix whose size is uncertain shows an estimate first), and the agent and walkthroughs that run in the ThemeSpot app at https://my.themespot.app. Reads, drafts, theme file changes, going live, previews, renders, walk, check, impact, capturing a web page, comparing a draw with a capture and approvals are never charged, and nor is anything you fix with your own Claude through this plugin, so look at a theme change with a preview until it is right, then deploy it once. Something that fails costs nothing, a deploy included. A tool that would cost more than your balance stops before it runs, says the tokens it needs and your balance, and links to a top-up.
 
 ## Approvals
 

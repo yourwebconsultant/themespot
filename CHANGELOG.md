@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.8.0
+
+- Ask for a new theme and the agent makes it here: `theme_change` action create makes a new React theme on ThemeSpot UI in the site's ThemeSpot workspace, with its brand settings from the site's saved design guidelines when there are some, and binds this connection to it, replacing any binding, so the build carries on in the same conversation instead of starting in the app. It takes the theme's name and what you want of it, works on every plan, and needs the dev role. A connection that uses a key makes the theme and does not bind it. A new HubL theme is still made in the ThemeSpot app, at https://my.themespot.app.
+
+## 3.7.1
+
+- Theme deploys that reach HubSpot: first deploy free, 1 token after. The free one is now the first theme deploy on your account, whichever of your sites it is on, where it was one on every site before.
+
 ## 3.7.0
 
 - Theme code through your own agent, this plugin included, is on every plan, and a theme deploy that reaches HubSpot uses 1 token, the first on each site free. A new module in a theme now starts from one of ThemeSpot UI's boilerplates: `theme_change` action create_module takes an `archetype` (content, image, video, form, hubdb, featured-post or island) and writes that boilerplate into the theme, renamed, with its fields, Style group and defaults in place. `check` lists every rule a comment in the theme switched off, with its reason, and says when a theme built before ThemeSpot UI 2.3.0 has its house-rule errors counted as warnings, and how it becomes strict.
