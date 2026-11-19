@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.8.1
+
+- ThemeSpot's word for checking a site, a page or a theme is now QA: the agent's description, this README, the skills, the plans and the tools' descriptions say QA, a QA run and scheduled QA. Only the words changed: the tool that runs QA is still `scan`, with the same actions, fields and answers.
+
 ## 3.8.0
 
 - Ask for a new theme and the agent makes it here: `theme_change` action create makes a new React theme on ThemeSpot UI in the site's ThemeSpot workspace, with its brand settings from the site's saved design guidelines when there are some, and binds this connection to it, replacing any binding, so the build carries on in the same conversation instead of starting in the app. It takes the theme's name and what you want of it, works on every plan, and needs the dev role. A connection that uses a key makes the theme and does not bind it. A new HubL theme is still made in the ThemeSpot app, at https://my.themespot.app.

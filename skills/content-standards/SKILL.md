@@ -1,6 +1,6 @@
 ---
 name: content-standards
-description: "For \"rewrite the meta descriptions\", \"fix the page titles\", \"add alt text to the images\", \"is this copy any good?\". Content quality and SEO reference for pages: page titles, meta descriptions, slugs, headings, alt text, structure and copy, with the thresholds the site scan applies. Load when writing or reviewing copy, or setting SEO fields."
+description: "For \"rewrite the meta descriptions\", \"fix the page titles\", \"add alt text to the images\", \"is this copy any good?\". Content quality and SEO reference for pages: page titles, meta descriptions, slugs, headings, alt text, structure and copy, with the thresholds QA applies. Load when writing or reviewing copy, or setting SEO fields."
 ---
 
 # content-standards
