@@ -2,7 +2,10 @@
   "mcpServers": {
     "themespot": {
       "type": "http",
-      "url": "https://api.themespot.app/mcp"
+      "url": "https://api.themespot.app/mcp",
+      "headers": {
+        "x-themespot-client": "themespot-plugin"
+      }
     }
   }
 }

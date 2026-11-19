@@ -1,6 +1,6 @@
 ---
 name: create-theme
-description: "For \"build a theme from this design\" and \"build out the new theme\", once that theme exists in ThemeSpot and this connection is bound to it. Building out a newly provisioned HubL theme you are bound to: read the design guidelines, ask two questions in one message, then tokens, theme.json, layouts, sections, templates, modules last; check every batch, seed links from the portal, and promote only with approval. Load when asked to build out the theme you are bound to."
+description: "For \"build a theme from this design\" and \"build out the new theme\", once that theme exists in ThemeSpot and this connection is bound to it. A new theme or a rebuild on the theme you are bound to: the default stack (server-rendered CMS React modules on ThemeSpot UI, HubL templates and sections), the ThemeSpot UI guide for each part, the two questions to ask first, and the HubL build-out for an existing HubL theme. Load when asked to build, rebuild or build out the theme you are bound to."
 ---
 
 # create-theme
