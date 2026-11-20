@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.9.0
+
+- The skills name ThemeSpot's MCP server, `themespot`, and its `skill` and `skill_read` tools in words, and each other by plain name, where they named Claude Code's own tool names, so the same skills folder works in any client that loads skills. The `themespot` skill is now ThemeSpot over MCP: signing in is described for any client, and the steps only Claude Code takes are marked as Claude Code's. The agent and its tools are unchanged.
+
 ## 3.8.1
 
 - ThemeSpot's word for checking a site, a page or a theme is now QA: the agent's description, this README, the skills, the plans and the tools' descriptions say QA, a QA run and scheduled QA. Only the words changed: the tool that runs QA is still `scan`, with the same actions, fields and answers.
